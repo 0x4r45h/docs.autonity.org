@@ -18,6 +18,7 @@ github_repo = "https://github.com/autonity/docs.autonity.org"
 github_project_repo = "https://github.com/autonity/docs.autonity.org"
 github_branch = "master"
 prism_syntax_highlighting = true
+custom_css = ["sass/_custom.scss"]
 
 # Enable local search with Lunr (does not require site to be public)
 offlineSearch = true
