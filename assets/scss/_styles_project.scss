@@ -3,6 +3,32 @@ Hide the view and edit page links "Edit this page", "Create child page", "Create
 Docsy Userguide reference: ./themes/docsy/userguide/content/en/docs/Adding content/repository-links.md.
 */
 
-.td-page-meta--edit { display: none !important; }
-.td-page-meta--child { display: none !important; }
-.td-page-meta--project-issue { display: none !important; }
+.td-page-meta--edit {
+    display: none !important;
+}
+
+.td-page-meta--child {
+    display: none !important;
+}
+
+.td-page-meta--project-issue {
+    display: none !important;
+}
+
+.archive-banner {
+    background: #ffe047;
+    z-index: 32;
+    position: fixed;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.close-button {
+    background-color: unset;
+    border: none;
+    color: #000;
+}

@@ -3,6 +3,7 @@ enableGitInfo = true
 languageCode = 'en-gb'
 theme = ["docsy", "plausible-hugo"]
 title = 'docs.autonity.org'
+pluralizeListTitles = false
 
 # Move the default contentDir one level down to facilitate a "docs only" site
 # without having to change the directory structure, which will be useful if we
@@ -18,13 +19,14 @@ github_repo = "https://github.com/autonity/docs.autonity.org"
 github_project_repo = "https://github.com/autonity/docs.autonity.org"
 github_branch = "master"
 prism_syntax_highlighting = true
+versionsToArchive = ["1.0.0", "1.0.1"]
 
 # Enable local search with Lunr (does not require site to be public)
 offlineSearch = true
 
 [params.ui]
 sidebar_menu_compact = true
-ul_show = 2
+ul_show = 1
 
 # Hide the duplicate search box in the sidebar (it still appears in top nav)
 sidebar_search_disable = true

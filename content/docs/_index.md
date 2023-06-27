@@ -3,6 +3,7 @@
 # title: "Welcome to Autonity!"
 linkTitle: "Documentation"
 type: docs
+version: "1.0.0"
 
 # Use target-specific front matter cascade to create a "docs only" site.
 cascade:
