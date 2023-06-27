@@ -3,6 +3,7 @@
 title: "Overview "
 linkTitle: "Overview"
 weight: 10
+version: "1.0.0"
 description: >
   An overview of the Autonity blockchain protocol and key concepts of the underlying technology
 ---

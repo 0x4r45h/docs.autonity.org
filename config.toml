@@ -19,7 +19,8 @@ github_repo = "https://github.com/autonity/docs.autonity.org"
 github_project_repo = "https://github.com/autonity/docs.autonity.org"
 github_branch = "master"
 prism_syntax_highlighting = true
-versionsToArchive = ["1.0.0", "1.0.1"]
+archived_versions = ["1.0.0", "1.0.1"]
+versions=["1.0.1"]
 
 # Enable local search with Lunr (does not require site to be public)
 offlineSearch = true

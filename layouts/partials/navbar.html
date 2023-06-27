@@ -41,7 +41,7 @@
         </div>
         <div class="navbar-nav d-none d-lg-block">{{ partial "search-input.html" . }}</div>
     </nav>
-    {{ if and .Params.version (in $.Site.Params.ot .Params.version) }}
+    {{ if and .Params.version (in $.Site.Params.archived_versions .Params.version) }}
     <div class="archive-banner">
         <div>This page contains archived content for Version {{ .Params.version }}.</div>
         <button class="close-button" onclick="this.parentNode.style.display='none';">Close</button>
